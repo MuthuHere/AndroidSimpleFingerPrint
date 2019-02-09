@@ -6,11 +6,11 @@ Google recommends authenticating fingerprint in applications by displaying a Dia
 
 ## Lets start
 
-###Step:1
+##Step:1
 We need permission to authendicate user finger access. So  in your Andriod Manifeast.xml add
 > android.permission.USE_FINGERPRINT"
 
-###Step:2
+##Step:2
 Check the device has fingerprint access 
 
 >mFingerprintManager.isHardwareDetected()&& mFingerprintManager.hasEnrolledFingerprints();
